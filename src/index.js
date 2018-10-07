@@ -4,7 +4,7 @@ import './Resources/css/app.css';
 import {BrowserRouter} from 'react-router-dom'
 import Routes from'./routes'
 import * as serviceWorker from './serviceWorker';
-
+import './firebase'
 
 const App = ()=>(
     <BrowserRouter>
